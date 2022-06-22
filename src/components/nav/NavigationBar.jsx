@@ -9,7 +9,7 @@ function Navbar() {
     <header className="mb-5"> 
   <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light toggle-nav">
   <div className="container-fluid">
-  <Link className="navbar-brand ms-3" to="/"><img src={logo} alt="Logo"/></Link>
+  <Link className="navbar-brand ms-3 logo" to="/"><img src={logo} alt="Logo"/></Link>
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       
