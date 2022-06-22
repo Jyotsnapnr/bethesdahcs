@@ -19,7 +19,7 @@ import dem from '../../assets/images/dem.jpg'
 import mass from '../../assets/images/mass.webp'
 import cou from '../../assets/images/cou.jpg'
 import dis from '../../assets/images/disabled.png'
-
+import './services.css'
 function Services() {
 
   return (
@@ -28,14 +28,14 @@ function Services() {
 <section className="py-5 text-center">
     <div className="row py-lg-5">
       <div className="col-lg-6 col-md-8 mx-auto">
-        <h1 className="fw-light">Our Services</h1>
+        <h1 className="fw-light mt-3">Our Services</h1>
         <p className="lead text-muted">Many seniors preferred to stay at their own home. Bethesda provides in home care.</p>
         
           <Link to="/services" className="btn my-2 text-white" style={{backgroundColor: 'rgb(103, 4, 4)', color: 'white'}}>Read More</Link>
 </div>
 </div>
 </section>
-<div className="container pt-0 my-5 z-depth-1">
+<div className="container pt-0 my-5 z-depth-1 service-page mt-0">
 <section className="p-md-3 mx-md-5 text-lg-left">
   <div className="row">
     <div className="col-lg-3 col-sm-6 col-md-4 mb-1">
