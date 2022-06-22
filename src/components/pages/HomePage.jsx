@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div>
       <NavigationBar />
-      <Home/>
+      <Home />
       
       <Services />
       <Contact />

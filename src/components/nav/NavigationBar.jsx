@@ -33,7 +33,7 @@ function Navbar() {
           <li className="nav-item">
           <Link className="nav-link text-white align-items-center text-center" to="/careers">Careers</Link>
           </li>
-      <li className="nav-item"><a href="tel:+17809063789" className="nav-link text-white align-items-center text-center ">
+      <li className="nav-item"><a href="tel:+18254392487" className="nav-link text-white align-items-center text-center ">
       <FcPhone className="fs-2 align-middle"/>+1 8254392487</a></li>
       </ul>
       </div>
