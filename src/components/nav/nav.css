@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+ font-family: 'Kdam Thmor Pro', sans-serif;
+    overflow: hidden;
+  }
+  
+
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  
+
+
+  .nav-item {
+    background-color: rgb(103, 4, 4);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size:18px;
+margin-left: 2rem;
+
+
+}
+
+.nav-item:hover {
+    background-color:rgb(3, 15, 91);
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  
+/*navbar*/
+
+.avbar-toggler-icon {
+    color: red;
+}
+

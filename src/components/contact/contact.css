@@ -1,0 +1,33 @@
+a {
+    text-decoration: none !important;
+    color: rgb(28, 23, 23) !important;
+ 
+  }
+  
+  
+  a:hover {
+    text-decoration: none;
+
+  }
+
+  .map-container {
+    height: 200px;
+    position: relative;
+    }
+    
+    .map-container iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+     position: absolute;
+    }
+    
+    .social img:hover {
+        transform: scale(0.8);
+      }
+      
+      .soc-icon:hover {
+        transform: scale(1.2);
+      }
+      

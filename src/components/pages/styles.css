@@ -1,0 +1,13 @@
+.service-bg {
+    background-image: url('../../assets/images/services.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.blur {
+    background: rgba(80, 79, 79, 0.2);
+    backdrop-filter: blur(8px);
+    color: rgb(59, 1, 1);
+  }
