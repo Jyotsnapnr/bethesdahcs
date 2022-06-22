@@ -256,17 +256,6 @@ care)</h6>
     </div>
 
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={meal} className="img-fluid  z-depth-1"  alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Meal preparation and nutrition</h6>
-    </div>
-    </div>
-
-    </div>
 
 
     <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
