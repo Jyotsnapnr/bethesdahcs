@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <header className="mb-5"> 
   <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light toggle-nav">
-  <div className="container-fluid">
+  <div className=" container-fluid">
   <Link className="navbar-brand ms-3 logo" to="/"><img src={logo} alt="Logo"/></Link>
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,9 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarCollapse">
       
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li className="nav-item ">
+          <Link className="nav-link text-white align-items-center text-center" to="/">Home</Link>
+          </li>
           <li className="nav-item ">
           <Link className="nav-link text-white align-items-center text-center" to="/about">About Us</Link>
           </li>

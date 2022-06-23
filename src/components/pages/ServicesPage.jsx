@@ -1,25 +1,27 @@
 import React from 'react'
 import NavigationBar from '../nav/NavigationBar'
-import care from '../../assets/images/care.jpg'
-import daily from '../../assets/images/daily.jpg'
-import res from '../../assets/images/oxygen.png'
-import fall from '../../assets/images/falling.png'
-import com from '../../assets/images/1.gif'
-import house from '../../assets/images/house.webp'
-import meal from '../../assets/images/meal.webp'
-import pills from '../../assets/images/pills.webp'
-import grocery from '../../assets/images/grocery.webp'
-import transportation from '../../assets/images/trans.jpg'
-import caretaker from '../../assets/images/caretaker.png'
-import overnight from '../../assets/images/overnight.webp'
-import hour from '../../assets/images/24.jpg'
-import post from '../../assets/images/post.webp'
-import reha from '../../assets/images/reha.jpg'
-import dem from '../../assets/images/dem.jpg'
-import mass from '../../assets/images/mass.webp'
-import cou from '../../assets/images/cou.jpg'
+
+import { FcBusinesswoman} from "react-icons/fc";
+import { GiMedicines } from "react-icons/gi";
+import { FcEngineering} from "react-icons/fc";
+import { GiFalling } from "react-icons/gi";
+import { TbFriends } from "react-icons/tb";
+import { MdOutlineLocalLaundryService } from "react-icons/md";
+import { IoFastFoodOutline } from "react-icons/io5";
+import { FcShop} from "react-icons/fc";
+import { MdWheelchairPickup } from "react-icons/md";
+import { FcCalendar} from "react-icons/fc";
+import {FcAutomotive} from "react-icons/fc";
+import {FcPodiumWithSpeaker} from "react-icons/fc";
+import {FcNightPortrait} from "react-icons/fc";
+import {FcAlarmClock} from "react-icons/fc";
+import {FcStackOfPhotos} from "react-icons/fc";
+import {FcCollaboration} from "react-icons/fc";
+import {FcSynchronize} from "react-icons/fc";
+import { TbMassage} from "react-icons/tb";
+import {FcVoicePresentation} from "react-icons/fc";
 import Footer from '../footer/Footer'
-import dis from '../../assets/images/disabled.png'
+
 import './styles.css'
 
 function ServicesPage() {
@@ -39,259 +41,258 @@ function ServicesPage() {
 </div>
 </div>
 </section>
-<div className="container pt-5 my-5 z-depth-1">
-<section className="p-md-3 mx-md-5 text-lg-left">
-  <div className="row">
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-      <div className="row d-flex align-items-center">
-        <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-          <img src={care} className="img-fluid  z-depth-1" alt="care"/>
-          </div>
-          <div className="col-7">
-            <h6 className="font-weight-bold pt-2 ms-3 text-center">Personal care(Oral hygiene, Bathing & Dressing,Toileting, Skin care, Foot
-care)</h6>
-          </div>
-      </div>
-    </div>
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={pills} className="img-fluid  z-depth-1" alt="medicine" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Medication administration</h6>
-    </div>
-    </div>
-
-    </div>
-    
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={res} className="img-fluid  z-depth-1" alt="medicine" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Respite care</h6>
-    </div>
-    </div>
-    </div>
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={fall} className="img-fluid  z-depth-1" alt="fall" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Fall prevention (Home safety)</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={com} className="img-fluid  z-depth-1" alt="com" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Companionship</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={house} className="img-fluid  z-depth-1" alt="house" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center"> Light housekeeping & Laundry</h6>
-    </div>
-    </div>
-
-    </div>
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={meal} className="img-fluid  z-depth-1" alt="house" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Meal preparation and nutrition</h6>
-    </div>
-    </div>
-
-    </div>
-
-
+<div className="z-depth-1 my-5 ps-3 mt-1 container">
+<section>
   
+    <div className="row dark-grey-text ms-1 mt-5">
+        <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcBusinesswoman className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Personal care(Oral hygiene, Bathing & Dressing,Toileting, Skin care, Foot
+care)
+            </h6>
+          </div>
+        </div>
+          </div>
 
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={grocery} className="img-fluid  z-depth-1" alt="house" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Grocery shopping</h6>
-    </div>
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <GiMedicines className="fs-2" style={{color: 'red'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Medication administration
+            </h6>
+          </div>
+        </div>
+          </div>
 
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcEngineering className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Respite care      </h6>
+          </div>
+        </div>
+          </div>
 
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <GiFalling className="fs-2" style={{color: '#1A6CE8'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold ">
+            Fall prevention (Home safety)    </h6>
+          </div>
+        </div>
+          </div>
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={dis} className="img-fluid  z-depth-1" alt="dis" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Disability support and care</h6>
-    </div>
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <TbFriends className="fs-2" style={{color: 'orange'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Companionship    </h6>
+          </div>
+        </div>
+          </div>
 
-    </div>
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={daily} className="img-fluid  z-depth-1" alt="images" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Assisting daily activities</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={transportation} className="img-fluid  z-depth-1" alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Transportation and accompanying for outings & appointments</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={caretaker} className="img-fluid  z-depth-1"  alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-3 text-center">Live in caretaker</h6>
-    </div>
-    </div>
-
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <MdOutlineLocalLaundryService className="fs-2" style={{color: 'gray'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Light housekeeping & Laundry    </h6>
+          </div>
+        </div>
+          </div>
 
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={overnight} className="img-fluid  z-depth-1"   alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 text-center">Overnight care</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={hour} className="img-fluid  z-depth-1"  alt="homecare"  />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">24 hours care</h6>
-    </div>
-    </div>
-
-    </div>
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={post} className="img-fluid  z-depth-1"  alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Postnatal care</h6>
-    </div>
-    </div>
-
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <IoFastFoodOutline className="fs-2" style={{color: '#7C3E09'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Meal preparation and nutrition      </h6>
+          </div>
+        </div>
+          </div>
 
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={reha} className="img-fluid  z-depth-1"  alt="homecare"  />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Rehabilitation services to achieve maximum independence</h6>
-    </div>
-    </div>
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcShop className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Grocery shopping      </h6>
+          </div>
+        </div>
+          </div>
 
-    </div>
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={dem} className="img-fluid  z-depth-1"  alt="homecare" />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Dementia care</h6>
-    </div>
-    </div>
-
-    </div>
-
-
-
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={mass} className="img-fluid  z-depth-1"  alt="homecare"  />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Massage</h6>
-    </div>
-    </div>
-
-    </div>
+          
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <MdWheelchairPickup className="fs-2" style={{color: '#1A6CE8'}}/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Disability support and care     </h6>
+          </div>
+        </div>
+          </div>
 
 
-    <div className="col-lg-3 col-sm-6 col-md-4 mb-5">
-    <div className="row d-flex align-items-center">
-    <div className="col-5 avatar w-100 white d-flex justify-content-center align-items-center">
-    <img src={cou} className="img-fluid  z-depth-1"  alt="homecare"  />
-    </div>
-    <div className="col-7">
-      <h6 className="font-weight-bold pt-2 ms-2 text-center">Counseling services</h6>
-    </div>
-    </div>
+          
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcCalendar className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Assisting daily activities    </h6>
+          </div>
+        </div>
+          </div>
+
+
+          
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcAutomotive className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Transportation and accompanying for outings & appointments      </h6>
+          </div>
+        </div>
+          </div>
+
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcPodiumWithSpeaker className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Live in caretaker     </h6>
+          </div>
+        </div>
+          </div>
+
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcNightPortrait className="fs-2" />
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Overnight care     </h6>
+          </div>
+        </div>
+          </div>
+
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcAlarmClock className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            24 hours care      </h6>
+          </div>
+        </div>
+          </div>
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcStackOfPhotos className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Postnatal care     </h6>
+          </div>
+        </div>
+          </div>
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcCollaboration className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Rehabilitation services to achieve maximum independence    </h6>
+          </div>
+        </div>
+          </div>
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcSynchronize className="fs-2"/>
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Dementia care    </h6>
+          </div>
+        </div>
+          </div>
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <TbMassage className="fs-2" style={{color:"#830D6B"}} />
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Massage     </h6>
+          </div>
+        </div>
+          </div>
+
+          <div className="col-md-6 col-xl-4 mb-4">
+        <div className="media">
+          <div className="mr-4">
+            <FcVoicePresentation className="fs-2" />
+          </div>
+          <div className="media-body">
+            <h6 className="font-weight-bold">
+            Counseling services    </h6>
+          </div>
+        </div>
+          </div>
 
     </div>
   
-  </div>
 </section>
 
-
-
 </div>
+
       <Footer />
     </>
   )

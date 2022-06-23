@@ -8,7 +8,7 @@ import './home.css';
 
 function Home() {
   return (
-    <div id="carousel1" className="carousel slide carousel-fade mt-5 pt-5" data-ride="carousel" style={{height:"80vh"}}>
+    <div id="carousel1" className="carousel slide carousel-fade mt-5 pt-5 mb-5 pb-5" data-ride="carousel" style={{height:"80vh"}}>
       <ol className="carousel-indicators">
         <li data-target="#carousel1" data-slide-to="0" className="active"></li>
         <li data-target="#carousel1" data-slide-to="1"></li>
@@ -21,7 +21,7 @@ function Home() {
                alt="home care" />
             <div className="mask rgba-black-light"></div>
           </div>
-          <div className="carousel-caption blur pb-5 mb-4">
+          <div className="carousel-caption blur pb-5 mb-4 text-ligt">
             <h3 className="h3-responsive">Bethesda Home Care Services</h3>
             <p>Choosing what is best for a senior loved one is always difficult.</p>
           </div>
@@ -31,7 +31,7 @@ function Home() {
             <img src={homecare2} alt="edmonton care home"/>
             <div className="mask rgba-black-strong"></div>
           </div>
-          <div className="carousel-caption blur pb-5 mb-4">
+          <div className="carousel-caption blur pb-5 mb-4 text-light">
             <h3 className="h3-responsive">Bethesda Home Care Services</h3>
             <p>Bethesda offers a comprehensive level of home care services.</p>
           </div>
@@ -41,7 +41,7 @@ function Home() {
             <img src={homecare3} alt="disability care" />
             <div className="mask rgba-black-slight"></div>
           </div>
-          <div className="carousel-caption blur pb-5 mb-4">
+          <div className="carousel-caption blur pb-5 mb-4 text-light">
             <h3 className="h3-responsive">Bethesda Home Care Services</h3>
             <p>All caregivers are trained, professional, and compassionate.</p>
           </div>

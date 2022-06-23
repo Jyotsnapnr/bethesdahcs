@@ -31,9 +31,8 @@ function AboutPage() {
       <FcCollaboration className="fs-1 text-center" />
 
         <h2 className="fw-normal">Our Vision</h2>
-        <p>We provide comfort to the soul and focus on individuals wholesome health & wellness, providing nourishment
-         and compassionate care to enhance quality of life, dignity and independance. The care is embeded in the love of Christ and echoes His
-         great faithfulness during the time of need.</p>
+        <p>To walk the talk of servant leaders, fulfilling Christ’s commission, compassion and
+love for the community where service excellence overflows.</p>
       </div>
       <div className="col-lg-4 text-center">
       <FcLike className="fs-1 text-center" />
